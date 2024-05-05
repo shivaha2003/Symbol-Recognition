@@ -1,0 +1,68 @@
+Software Requirements Specification (SRS) for Symbol and Text in Image Conversion to Speech
+
+1. Introduction
+
+1.1 Purpose:
+The purpose of this document is to provide a detailed description of the requirements for developing software that converts symbols and text in images into speech using Optical Character Recognition (OCR) software and a database.
+
+1.2 Scope:
+This software will cater to users who are visually impaired or have difficulty reading text in images. It will utilize OCR technology to extract text from images, and then convert the extracted text into speech. Additionally, it will be capable of recognizing and pronouncing symbols and special characters.
+
+2. Functional Requirements
+
+2.1 Image Input:
+- The system shall allow users to upload images containing text and symbols.
+- The system shall support common image formats such as JPEG, PNG, and BMP.
+
+2.2 Optical Character Recognition (OCR):
+- The system shall employ OCR software to accurately extract text and symbols from the uploaded images.
+- The OCR process shall recognize various fonts, styles, and sizes of text, ensuring high accuracy in extraction.
+- The OCR algorithm shall be capable of handling noise and distortion in the images.
+
+2.3 Database Integration:
+- The system shall integrate with a database containing pronunciation data for symbols, special characters, and commonly used words.
+- The database shall store phonetic representations or audio files associated with each symbol and character.
+- The system shall retrieve pronunciation information from the database based on the recognized symbols and text.
+
+2.4 Text-to-Speech Conversion:
+- The system shall convert the extracted text and symbols into speech using Text-to-Speech (TTS) technology.
+- The TTS engine shall generate natural-sounding speech output with appropriate intonation and pronunciation.
+- The system shall provide options for adjusting the speech rate, pitch, and volume according to user preferences.
+
+2.5 Speech Output:
+- The system shall play the synthesized speech output through the user's device speakers or headphones.
+- The speech output shall accurately represent the content of the input image, including text and symbols.
+
+2.6 User Interface:
+- The system shall feature a user-friendly interface for uploading images, adjusting settings, and initiating the conversion process.
+- The user interface shall provide feedback on the progress of the OCR and speech synthesis processes.
+- The system shall support accessibility features such as screen readers and keyboard navigation.
+
+3. Non-functional Requirements
+
+3.1 Performance:
+- The system shall process images and convert text to speech within a reasonable timeframe, ensuring responsiveness and efficiency.
+- The OCR and speech synthesis processes shall have high accuracy and reliability, minimizing errors in recognition and pronunciation.
+
+3.2 Security:
+- The system shall implement security measures to protect user data and ensure the confidentiality of uploaded images.
+- User authentication mechanisms shall be implemented to restrict access to sensitive functionality and data.
+
+3.3 Compatibility:
+- The system shall be compatible with a wide range of devices and operating systems, including desktop computers, laptops, tablets, and smartphones.
+- The software shall support integration with popular web browsers and screen reader software.
+
+3.4 Scalability:
+- The system architecture shall be designed to accommodate potential future enhancements and scalability requirements.
+- The database shall be scalable to handle a growing volume of pronunciation data and user interactions.
+
+4. Constraints
+
+- The accuracy of OCR and speech synthesis may be affected by the quality and clarity of the input images.
+- The availability and quality of pronunciation data in the database may impact the accuracy of speech output for symbols and special characters.
+
+5. Glossary
+- OCR: Optical Character Recognition
+- TTS: Text-to-Speech
+
+
